@@ -1,0 +1,109 @@
+.mdl-white {
+	background-color: #fff;
+	color: #333;
+}
+.contents { 
+	/*display: flex;*/
+	overflow: hidden;
+	 
+	text-align: center;
+ 	 
+	height: 667px!important;
+	background-image: url('../images/cover.jpg');
+	background-size: 100%;
+}
+.form {
+	display: block!important;
+}
+.input {
+	width: 656px;
+	height: 46px!important;
+	padding-left: 40px;
+	border:none;
+}
+ .btn {
+  	width:68px;
+ 	height: 46px;
+ 	background: #3f51b5;
+ 	color: #fff;
+ 	margin-left: -15px;
+ 	border: 1px solid #fff;
+ 	border-radius: 0!important;
+ }
+ .btn:hover {
+ 	background: #3f51b5;
+ }
+ .items {
+ 	margin-top: 100px;
+ }
+ .row {
+ 	width: 100%;
+ 	margin-top: 20px;
+ 	text-align: center;
+ }
+ .row button:nth-child(2) {
+ 	background: #ce93d8;
+ 	color:#fff;
+ }
+ }
+ /*.row button:first-child {
+ 	background: #d50000;
+ 	color:#fff;
+ }*/
+ .row button {
+ 	width: 166px;
+ 	height: 32px;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	background: #ce93d8;
+ }
+ .row_content p {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+ .sign_in:hover {
+  transform: rotate(10deg) scale(1.1);
+ }
+ .row button:hover {
+ 	background: #ce93d8!important;
+ 	color: #333;
+ }
+ .logo {
+   
+  animation: bounceIn 0.6s;
+  /*animation-iteration-count: infinite;*/
+   transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.bubble { fill: #e76853; }
+.icon { fill:  #fff; }
+
+@keyframes bounceIn {
+  0% {
+    opacity: 1;
+    transform: scale(.3);
+  } 
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  } 
+
+  70% {
+    opacity: 1;
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
